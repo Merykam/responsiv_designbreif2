@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container2{
+    width: 85%;
+    margin: auto;
+
+    
+}
+
+.logo{
+    padding-left: 62px;
+}
+
+
+.logo img{
+    width: 56%;
+}
+
+
+.container1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(226, 201, 201);
+}
+
+li{
+    display: inline;
+    padding-left: 15px;
+    
+    
+}
+ a {
+    text-decoration-line: none;
+    
+    
+   
+}
+a .diff{
+    text-decoration-line: underline;
+    
+}
+a :hover{
+    background-color: rgb(199, 170, 170);
+
+}
+
+.secondUL{
+    padding-top: 20px;
+}
+.firsth{
+    padding-top: 15px;
+}
+
+
+
+.produits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.produits .choix{
+    /* width: 240px; */
+    border: black 1px solid;
+    /* position: relative; */
+    /* height: 367px; */
+    margin-left: 30px;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 5px gray;
+}
+.produits .choix img{
+    width: 200px;
+    height: 270px;
+    /* position: absolute; */
+    /* top: 5px;
+    left: 20px; */
+    
+}
+.produits .choix .three{
+    width:200px;
+}
+
+
+
+.produits h5{
+    color: blue;
+}
+
+
+
+/* //resposive designe */
+
+
+ @media(max-width :800px){
+.logo img{
+    display: block;
+    width: 70px;
+    margin: 0 auto;
+}
+.logo{
+    padding-left: 0;
+}
+
+.container1 {
+    display: block;
+    height: 17vh;
+    width: 100vw;
+}
+
+
+.firstUL ul {
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-right: 5px;
+   
+
+
+}
+   
+} 
+@media print{
+    .container1{
+        display: none;
+    }
+
+}
